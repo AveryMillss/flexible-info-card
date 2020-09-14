@@ -23,3 +23,19 @@ ul {
 img {
   width: 5rem;
 }
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  width: 24rem;
+  margin: 0;
+}
+
+a {
+  background-color: #444;
+}
