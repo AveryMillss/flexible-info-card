@@ -1,8 +1,12 @@
 html {
   box-sizing: border-box;
-  font-family: "open sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   color: #000;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -13,6 +17,8 @@ body {
 h2 {
   text-align: center;
   display: block;
+  margin-bottom: 0;
+  margin-top: 2rem;
 }
 
 ul {
@@ -29,6 +35,8 @@ li {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
+  margin: 0;
 }
 
 p {
@@ -38,4 +46,20 @@ p {
 
 a {
   background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: .5rem 1rem .6rem;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+h4 {
+  margin: 0;
+}
+
+hgroup {
+  width: 16rem;
 }
