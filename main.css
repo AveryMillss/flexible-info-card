@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+  font-family: "open sans", sans-serif;
+  line-height: 1.5;
+  color: #000;
+}
+
+body {
+  background: #ccc;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  display: block;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 5rem;
+}
